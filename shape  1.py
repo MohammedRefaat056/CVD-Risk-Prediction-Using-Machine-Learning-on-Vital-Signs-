@@ -36,7 +36,6 @@ def process_health_data_rf(raw_vitals_list):
         'temperature':       'Temperature',
     }
 
-    # ── 1. Clip + collect warnings ──────────────────────────────
     clipped  = []
     warnings = []
 
