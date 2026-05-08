@@ -7,6 +7,13 @@
 
  (Tech Stack)
 - **Model:** Random Forest Classifier (Accuracy: 99.85%).
+-     features = [
+        'heart_rate',
+        'blood_pressure',
+        'oxygen_saturation',
+        'respiratory_rate',
+        'temperature'
+    ]
 - **XAI Layer:** SHAP Framework لتفسير النتائج.
 - **Data Handling:** Pandas, Numpy, Scikit-learn.
 - **Communication:** JSON API Response format.
